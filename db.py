@@ -42,7 +42,7 @@ def get_all_users():
 def get_user_by_id(user_id):
     conn = get_connection()
     try:
-        with conn.cursor() as cur:
+        with conn.cursor(pymysql.cursors.Cursor) as cur: 
             cur.execute("SELECT id, name, email, role FROM users WHERE id=%s", (user_id,))
             return cur.fetchone()
     finally:
