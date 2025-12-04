@@ -46,7 +46,8 @@ elif choice == "Update User":
     st.subheader("Update User")
 
     users = get_all_users()
-    user_ids = [u[0] for u in users]
+    user_ids = [u["id"] for u in users]
+
 
     selected_id = st.selectbox("Select User ID to Update", user_ids)
 
