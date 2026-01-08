@@ -62,14 +62,17 @@ pip install -r requirements.txt
 
 Alternatively, you can run `schema.sql` manually in a MySQL client.
 
-### 5. Configure database connection
-Edit `config.py` with your MySQL credentials:
+### 5. Configure database connection  
+
+Create a .env file containing configs.  
+
+Create and edit `config.py` with your MySQL credentials:
 ```python
-DB_HOST = "localhost"
-DB_USER = "root"
-DB_PASS = ""
-DB_NAME = "usermgmt"
-DB_PORT = 3306
+DB_HOST = 
+DB_USER = 
+DB_PASS = 
+DB_NAME = 
+DB_PORT = 
 ```
 
 ---
