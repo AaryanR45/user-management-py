@@ -34,7 +34,7 @@ user-management/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/username/user-management.git
+git clone https://github.com/AaryanR45/user-management-py.git
 cd user-management
 ```
 
