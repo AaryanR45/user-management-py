@@ -18,3 +18,5 @@ venv/
 
 # Streamlit secrets/env
 .env
+
+config.py
